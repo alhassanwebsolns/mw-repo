@@ -17,7 +17,7 @@
 	<!-- Font Imports -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Montserrat:wght@300;400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=PT+Serif:ital@0;1&display=swap" rel="stylesheet">
 
 	<!-- Core Style -->
 	<link rel="stylesheet" href="style.css">
@@ -25,15 +25,8 @@
 	<!-- Font Icons -->
 	<link rel="stylesheet" href="css/font-icons.css">
 
-	<!-- Plugins/Components CSS -->
-	<link rel="stylesheet" href="css/swiper.css">
-
-	<!-- Niche Demos -->
-	<link rel="stylesheet" href="demos/shop/shop.css">
-
 	<!-- Custom CSS -->
 	<link rel="stylesheet" href="css/custom.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- SLIDER REVOLUTION 5.x CSS SETTINGS -->
 	<link rel="stylesheet" href="include/rs-plugin/css/settings.css" media="screen">
@@ -81,47 +74,17 @@
 
 		<!-- Top Bar
 		============================================= -->
-		<div id="top-bar" class="dark" style="background-color: #a3a5a7;">
+		<div id="top-bar" class="py-3 text-center bg-color-light">
 			<div class="container">
+				<div class="d-md-flex justify-content-md-between align-items-md-center">
+					<span><strong class="text-uppercase flash animated infinite slow d-inline-block me-2">Redefining Islamic Fashion</strong>with the latest trends and accessories for men, women, and children!</span>
 
-				<div class="row justify-content-between align-items-center">
-
-					<div class="col-12 col-lg-auto">
-						<p class="mb-0 d-flex justify-content-center justify-content-lg-start py-3 py-lg-0"><strong>Redefining Islamic Fashion!</strong></p>
-					</div>
-
-					<div class="col-12 col-lg-auto d-none d-lg-flex">
-
-						<!-- Top Links
-						============================================= -->
-						<div class="top-links">
-							<ul class="top-links-container">
-								<li class="top-links-item"><a href="#">EN</a>
-									<ul class="top-links-sub-menu">
-										<li class="top-links-item"><a href="#"><img src="images/icons/flags/french.png" alt="French"> FR</a></li>
-										<li class="top-links-item"><a href="#"><img src="images/icons/flags/italian.png" alt="Italian"> IT</a></li>
-										<li class="top-links-item"><a href="#"><img src="images/icons/flags/german.png" alt="German"> DE</a></li>
-									</ul>
-								</li>
-							</ul>
-						</div><!-- .top-links end -->
-
-						<!-- Top Social
-						============================================= -->
-						<ul id="top-social">
-							<li><a href="#" class="h-bg-facebook"><span class="ts-icon"><i class="fa-brands fa-facebook-f"></i></span><span class="ts-text">Facebook</span></a></li>
-							<li><a href="#" class="h-bg-instagram"><span class="ts-icon"><i class="fa-brands fa-instagram"></i></span><span class="ts-text">Instagram</span></a></li>
-							<li><a href="tel:+1.11.85412542" class="h-bg-call"><span class="ts-icon"><i class="fa-solid fa-phone"></i></span><span class="ts-text">+1.11.85412542</span></a></li>
-							<li><a href="mailto:info@canvas.com" class="h-bg-email3"><span class="ts-icon"><i class="bi-envelope-fill"></i></span><span class="ts-text">info@canvas.com</span></a></li>
-						</ul><!-- #top-social end -->
-
-					</div>
+			<h4 class="mb-0 h6 fw-normal">Wanna talk? Reach us at <a class="color" href="tel:+971528772214"><u class="fw-medium">+971-528-772214</u></a> or <a class="color" href="mailto:muslimwadrobe@gmail.com"><u class="fw-medium">email</u></a> us.</h4>
 				</div>
-
 			</div>
-		</div>
+		</div><!-- #top-bar end -->
 
-        <!-- Header
+<!-- Header
 		============================================= -->
 		<header id="header" class="full-header dark">
 			<div id="header-wrap">
@@ -610,9 +573,13 @@
 			<div class="header-wrap-clone"></div>
 		</header><!-- #header end -->
 
-		<!-- Slider
-		============================================= -->
 		<section id="slider" class="slider-element slider-parallax revslider-wrap overflow-hidden">
+
+			<!--
+			#################################
+				- MAIN SLIDER START -
+			#################################
+			-->
 			<div id="rev_slider_ishop_wrapper" class="rev_slider_wrapper fullwidth-container" data-alias="default-slider" style="padding:0px;">
 					<!-- START REVOLUTION SLIDER 5.1.4 fullwidth mode -->
 				<div id="rev_slider_ishop" class="rev_slider fullwidthbanner" style="display:none;" data-version="5.1.4">
@@ -788,7 +755,7 @@
 
 		</section>
 
-		<!-- Content
+				<!-- Content
 		============================================= -->
 		<section id="content">
 			<div class="content-wrap">
@@ -796,8 +763,8 @@
 
 					<!-- Shop Categories
 					============================================= -->
-					<div class="fancy-title title-border title-center mb-4">
-						<h4>Popular Categories</h4>
+					<div class="heading-block mb-5 border-bottom-0 mx-auto text-center">
+					  <h3 class="text-transform-none ls-0"> Product Categories </h3>
 					</div>
 
 					<div class="row shop-categories">
@@ -869,23 +836,14 @@
 									<a href="#"><img src="demos/shop/images/items/featured/1-1.jpg" alt="Round Neck T-shirts"></a>
 									<div class="sale-flash badge bg-danger p-2">Sale!</div>
 									<div class="bg-overlay">
-										<div class="bg-overlay-content align-items-end justify-content-between" data-hover-animate="fadeIn" data-hover-speed="400">
-											<a href="#" class="btn btn-dark me-2" title="Add to Cart"><i class="bi-bag-plus"></i></a>
-											<a href="demos/shop/ajax/shop-item.html" class="btn btn-dark" data-lightbox="ajax"><i class="bi-eye"></i></a>
+										<div class="bg-overlay-content align-items-end" data-hover-animate="fadeIn" data-hover-speed="400">
+											<a href="#" class="btn btn-dark" data-lightbox="ajax">Quick View</a>
 										</div>
 										<div class="bg-overlay-bg bg-transparent"></div>
 									</div>
 								</div>
 								<div class="product-desc">
 									<div class="product-title mb-1"><h3><a href="#">Round Neck Solid Light Blue Colour T-shirts</a></h3></div>
-									<div class="product-price font-primary"><del class="me-1">$24.99</del> <ins>$12.49</ins></div>
-									<div class="product-rating">
-										<i class="bi-star-fill"></i>
-										<i class="bi-star-fill"></i>
-										<i class="bi-star-fill"></i>
-										<i class="bi-star-half"></i>
-										<i class="bi-star"></i>
-									</div>
 								</div>
 							</div>
 						</div>
@@ -898,23 +856,14 @@
 									<a href="#"><img src="demos/shop/images/items/featured/2.jpg" alt="Navy Blue Dress"></a>
 									<a href="#"><img src="demos/shop/images/items/featured/2-1.jpg" alt="Navy Blue Dress"></a>
 									<div class="bg-overlay">
-										<div class="bg-overlay-content align-items-end justify-content-between" data-hover-animate="fadeIn" data-hover-speed="400">
-											<a href="#" class="btn btn-dark me-2" title="Add to Cart"><i class="bi-bag-plus"></i></a>
-											<a href="demos/shop/ajax/shop-item.html" class="btn btn-dark" data-lightbox="ajax"><i class="bi-eye"></i></a>
+										<div class="bg-overlay-content align-items-end" data-hover-animate="fadeIn" data-hover-speed="400">
+											<a href="include/ajax/shop-item.html" class="btn btn-dark" data-lightbox="ajax">View Details</a>
 										</div>
 										<div class="bg-overlay-bg bg-transparent"></div>
 									</div>
 								</div>
 								<div class="product-desc">
 									<div class="product-title mb-1"><h3><a href="#">Navy Blue Dress For Women</a></h3></div>
-									<div class="product-price font-primary"><ins>$19.99</ins></div>
-									<div class="product-rating">
-										<i class="bi-star-fill"></i>
-										<i class="bi-star-fill"></i>
-										<i class="bi-star-fill"></i>
-										<i class="bi-star-fill"></i>
-										<i class="bi-star-half"></i>
-									</div>
 								</div>
 							</div>
 						</div>
@@ -928,7 +877,7 @@
 									<a href="#"><img src="demos/shop/images/items/featured/5-1.jpg" alt="Shoes"></a>
 									<div class="bg-overlay">
 										<div class="bg-overlay-content align-items-end" data-hover-animate="fadeIn" data-hover-speed="400">
-											<a href="demos/shop/ajax/shop-item-no-stock.html" class="btn btn-dark" data-lightbox="ajax">Quick View</a>
+											<a href="include/ajax/shop-item.html" class="btn btn-dark" data-lightbox="ajax">View Details</a>
 										</div>
 										<div class="bg-overlay-bg bg-transparent"></div>
 									</div>
@@ -936,14 +885,6 @@
 								<div class="sale-flash badge bg-secondary p-2">Out of Stock!</div>
 								<div class="product-desc">
 									<div class="product-title mb-1"><h3><a href="#">White athletic shoe</a></h3></div>
-									<div class="product-price font-primary"><ins>$35.00</ins></div>
-									<div class="product-rating">
-										<i class="bi-star-fill"></i>
-										<i class="bi-star-fill"></i>
-										<i class="bi-star-fill"></i>
-										<i class="bi-star-fill"></i>
-										<i class="bi-star-fill"></i>
-									</div>
 								</div>
 							</div>
 						</div>
@@ -964,9 +905,8 @@
 										</div>
 									</div>
 									<div class="bg-overlay">
-										<div class="bg-overlay-content align-items-end justify-content-between" data-hover-animate="fadeIn" data-hover-speed="400">
-											<a href="#" class="btn btn-dark me-2" title="Add to Cart"><i class="bi-bag-plus"></i></a>
-											<a href="demos/shop/ajax/shop-item.html" class="btn btn-dark" data-lightbox="ajax"><i class="bi-eye"></i></a>
+										<div class="bg-overlay-content align-items-end" data-hover-animate="fadeIn" data-hover-speed="400">
+											<a href="include/ajax/shop-item.html" class="btn btn-dark" data-lightbox="ajax">View Details</a>
 										</div>
 										<div class="bg-overlay-bg bg-transparent"></div>
 									</div>
@@ -974,14 +914,6 @@
 								<div class="sale-flash badge bg-danger p-2">Sale!</div>
 								<div class="product-desc">
 									<div class="product-title mb-1"><h3><a href="#">Navy blue T-shirt, Round neck, Short Sleeves</a></h3></div>
-									<div class="product-price font-primary"><del class="me-1">$27.99</del> <ins>$21.00</ins></div>
-									<div class="product-rating">
-										<i class="bi-star-fill"></i>
-										<i class="bi-star-fill"></i>
-										<i class="bi-star-fill"></i>
-										<i class="bi-star"></i>
-										<i class="bi-star"></i>
-									</div>
 								</div>
 							</div>
 						</div>
@@ -993,23 +925,14 @@
 								<div class="product-image">
 									<a href="#"><img src="demos/shop/images/items/featured/3.jpg" alt="T-shirts"></a>
 									<div class="bg-overlay">
-										<div class="bg-overlay-content align-items-end justify-content-between" data-hover-animate="fadeIn" data-hover-speed="400">
-											<a href="#" class="btn btn-dark me-2" title="Add to Cart"><i class="bi-bag-plus"></i></a>
-											<a href="demos/shop/ajax/shop-item.html" class="btn btn-dark" data-lightbox="ajax"><i class="bi-eye"></i></a>
+										<div class="bg-overlay-content align-items-end" data-hover-animate="fadeIn" data-hover-speed="400">
+											<a href="include/ajax/shop-item.html" class="btn btn-dark" data-lightbox="ajax">View Details</a>
 										</div>
 										<div class="bg-overlay-bg bg-transparent"></div>
 									</div>
 								</div>
 								<div class="product-desc">
 									<div class="product-title mb-1"><h3><a href="#">Women Black T-Shirt</a></h3></div>
-									<div class="product-price font-primary"><ins>$13.00</ins></div>
-									<div class="product-rating">
-										<i class="bi-star-fill"></i>
-										<i class="bi-star-fill"></i>
-										<i class="bi-star-fill"></i>
-										<i class="bi-star-fill"></i>
-										<i class="bi-star"></i>
-									</div>
 								</div>
 							</div>
 						</div>
@@ -1028,9 +951,9 @@
 									<div class="col-md-12 text-center p-5">
 										<div class="heading-block mb-1 border-bottom-0 mx-auto">
 											<div class="font-secondary text-black-50 mb-1">New Arrivals</div>
-											<h3 class="text-transform-none ls-0">Fresh Arrivals / Autumn 18</h3>
-											<p class="fw-normal mt-2 mb-3 text-muted" style="font-size: 17px; line-height: 1.4">Dynamically drive interdependent metrics for worldwide portals. Proactively grow client technology schemas.</p>
-											<a href="#" class="button bg-dark text-white button-dark button-small ms-0">Shop Now</a>
+											<h3 class="text-transform-none ls-0">Embrace the Latest Islamic Fashion Trends</h3>
+											<p class="fw-normal mt-2 mb-3 text-muted" style="font-size: 17px; line-height: 1.4">Stay ahead of the fashion curve and embrace the latest Islamic fashion trends at The Muslim Wardrobe. Discover a diverse range of contemporary and stylish designs that beautifully blend modesty and fashion-forward aesthetics.</p>
+											<a href="#" class="button btn-golden text-white button-dark button-small ms-0">Shop Now</a>
 										</div>
 									</div>
 									<div class="col-6">
@@ -1067,7 +990,7 @@
 
 					<div class="clear"></div>
 
-                    <!-- Category Tabs Start -->
+     <!-- Category Tabs Start -->
 					<div class="tabs mt-6">
 						<ul class="nav canvas-tabs tabs nav-tabs justify-content-center mb-4" id="tab-3" role="tablist" style="--bs-nav-link-font-weight: 600;">
 							<li class="nav-item" role="presentation">
@@ -1792,41 +1715,14 @@
 						</div>
 					</div>
 					<!-- Category Tabs End -->
+
+
+					<div class="clear mb-4"></div>
+
+
 				</div>
 
-				<div class="clear mb-4"></div>
-
-				<!-- Sign Up
-				============================================= -->
-				<div class="section my-4 py-5">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-12">
-								<div class="row align-items-stretch align-items-center">
-									<div class="col-md-7 min-vh-50" style="background: url('demos/shop/images/sections/3.jpg') center center no-repeat; background-size: cover;">
-										<div class="vertical-middle ps-5">
-											<h2 class="ps-5"><strong>40%</strong> Off<br>First Order*</h2>
-										</div>
-									</div>
-									<div class="col-md-5 bg-white">
-										<div class="card border-0 py-2">
-											<div class="card-body">
-												<h3 class="card-title mb-4 ls-0">Sign up to get the most out of shopping.</h3>
-												<ul class="iconlist ms-3">
-													<li><i class="bi-check-circle"></i> Receive Exclusive Sale Alerts</li>
-													<li><i class="bi-check-circle"></i> 30 Days Return Policy</li>
-													<li><i class="bi-check-circle"></i> Cash on Delivery Accepted</li>
-												</ul>
-												<a href="#" class="button button-rounded ls-0 fw-semibold ms-0 mb-2 text-transform-none px-4">Sign Up</a><br>
-												<small class="fst-italic text-black-50">Don't worry, it's totally free.</small>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+				<div class="clear"></div>
 
 				<div class="container">
 
@@ -1936,61 +1832,85 @@
 
 					</div>
 
-					<div class="clear"></div>
-
-					<!-- Brands
-					============================================= -->
-					<div class="row mt-5">
-						<div class="col-12">
-							<div class="fancy-title title-border title-center mb-4">
-								<h4>Brands who give Flat <span class="text-danger">40%</span> Off</h4>
-							</div>
-
-							<ul class="clients-grid row row-cols-2 row-cols-sm-3 row-cols-md-6 row-cols-lg-8 mb-0 justify-content-center">
-								<li class="grid-item"><a href="#"><img src="images/clients/logo/1.png" alt="Clients"></a></li>
-								<li class="grid-item"><a href="#"><img src="images/clients/logo/2.png" alt="Clients"></a></li>
-								<li class="grid-item"><a href="#"><img src="images/clients/logo/3.png" alt="Clients"></a></li>
-								<li class="grid-item"><a href="#"><img src="images/clients/logo/4.png" alt="Clients"></a></li>
-								<li class="grid-item"><a href="#"><img src="images/clients/logo/5.png" alt="Clients"></a></li>
-								<li class="grid-item"><a href="#"><img src="images/clients/logo/6.png" alt="Clients"></a></li>
-								<li class="grid-item"><a href="#"><img src="images/clients/logo/7.png" alt="Clients"></a></li>
-								<li class="grid-item"><a href="#"><img src="images/clients/logo/8.png" alt="Clients"></a></li>
-								<li class="grid-item"><a href="#"><img src="images/clients/logo/9.png" alt="Clients"></a></li>
-								<li class="grid-item"><a href="#"><img src="images/clients/logo/10.png" alt="Clients"></a></li>
-								<li class="grid-item"><a href="#"><img src="images/clients/logo/11.png" alt="Clients"></a></li>
-								<li class="grid-item"><a href="#"><img src="images/clients/logo/12.png" alt="Clients"></a></li>
-								<li class="grid-item"><a href="#"><img src="images/clients/logo/13.png" alt="Clients"></a></li>
-								<li class="grid-item"><a href="#"><img src="images/clients/logo/14.png" alt="Clients"></a></li>
-								<li class="grid-item"><a href="#"><img src="images/clients/logo/15.png" alt="Clients"></a></li>
-								<li class="grid-item"><a href="#"><img src="images/clients/logo/16.png" alt="Clients"></a></li>
-							</ul>
-						</div>
-					</div>
-
 				</div>
-
-				
-
-				<!-- App Buttons
+				<!-- 5. Section Fetured Boxes
 				============================================= -->
-				<!--<div class="section pb-0 mb-0" style="background-color: #f8f5f0">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-6 offset-1 mb-6 d-flex flex-column align-self-center">
-								<h3 class="card-title fw-normal ls-0">Follow. Find. Favorite.<br>Discover Fashion on the Go.</h3>
-								<span>Proactively enable Corporate Benefits.</span>
-								<div class="mt-3">
-									<a href="#" class="button bg-appstore inline-block button-small button-rounded button-desc fw-normal ls-1"><i class="fa-brands fa-apple"></i><div><span>Download Canvas Shop</span>App Store</div></a>
-									<a href="#" class="button inline-block button-small button-rounded button-desc button-light text-dark fw-normal ls-1 bg-white border"><i class="fa-brands fa-google-play"></i><div><span>Download Canvas Shop</span>Google Play</div></a>
+				<div class="section custom-bg mt-lg-0 mb-0 py-5" style="--custom-bg: #fdf3e7;">
+				</div>
+				<!-- 6. Section Instagram
+				============================================= -->
+				<div class="section custom-bg my-0 py-0" style="--custom-bg: #131a22;">
+					<div class="row align-items-center no-gutters">
+						<!-- Instagram Center Col - Text -->
+						<div class="col-lg-4 py-5 order-lg-2">
+							<div class="text-center dark p-5">
+								<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="#FFF" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><path d="M172,36H84A47.99987,47.99987,0,0,0,36,84v88a47.99988,47.99988,0,0,0,48,48h88a47.99988,47.99988,0,0,0,48-48V84A47.99987,47.99987,0,0,0,172,36ZM128,168a40,40,0,1,1,40-40A40.0001,40.0001,0,0,1,128,168Z" opacity="0.2"></path><circle cx="128" cy="128" r="40" fill="none" stroke="#FFF" stroke-miterlimit="10" stroke-width="16"></circle><rect class x="36" y="36" width="184" height="184" rx="48" stroke-width="16" stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" fill="none"></rect><circle cx="180" cy="75.99998" r="12"></circle></svg>
+
+								<h3 class="mt-3 mb-5 fw-normal h2">Don't Follow the Crowd, Follow us on <span data-animate="svg-underline-animated" class="svg-underline nocolor"><span>Instagram</span></span></h3>
+
+								<a href="https://instagram.com/the.muslim.wardrobe/" target="_blank" class="button  btn-golden">@the.muslim.wardrobe</a>
+							</div>
+						</div>
+
+						<!-- Instagram Left Col - Image -->
+						<div class="col-lg-4 col-md-6 order-lg-1">
+							<div class="row gutter-4">
+								<div class="col-6">
+									<a class="d-block instagram-image" href="https://instagram.com/the.muslim.wardrobe/" target="_blank" style="background: url('demos/furniture/images/instagram/1.jpg') no-repeat center center; background-size:cover; min-height: 33vh;"></a>
+								</div>
+								<div class="col-6">
+									<a class="d-block instagram-image" href="https://instagram.com/the.muslim.wardrobe/" target="_blank" style="background: url('demos/furniture/images/instagram/2.jpg') no-repeat center center; background-size:cover; min-height: 33vh;"></a>
+								</div>
+								<div class="col-6">
+									<a class="d-block instagram-image" href="https://instagram.com/the.muslim.wardrobe/" target="_blank" style="background: url('demos/furniture/images/instagram/3.jpg') no-repeat center center; background-size:cover; min-height: 33vh;"></a>
+								</div>
+								<div class="col-6">
+									<a class="d-block instagram-image" href="https://instagram.com/the.muslim.wardrobe/" target="_blank" style="background: url('demos/furniture/images/instagram/4.jpg') no-repeat center center; background-size:cover; min-height: 33vh;"></a>
 								</div>
 							</div>
-							<div class="col-md-4 d-none d-md-flex align-items-end">
-								<img src="demos/shop/images/sections/app.png" alt="Image" class="mb-0">
+						</div>
+
+						<!-- Instagram Right Col - Image -->
+						<div class="col-lg-4 col-md-6 order-lg-3 mt-1 mt-md-0 ps-md-1 ps-lg-0">
+							<div class="row gutter-4">
+								<div class="col-6">
+									<a class="d-block instagram-image" href="https://instagram.com/the.muslim.wardrobe/" target="_blank" style="background: url('demos/furniture/images/instagram/5.jpg') no-repeat center center; background-size:cover; min-height: 33vh;"></a>
+								</div>
+								<div class="col-6">
+									<a class="d-block instagram-image" href="https://instagram.com/the.muslim.wardrobe/" target="_blank" style="background: url('demos/furniture/images/instagram/6.jpg') no-repeat center center; background-size:cover; min-height: 33vh;"></a>
+								</div>
+								<div class="col-6">
+									<a class="d-block instagram-image" href="https://instagram.com/the.muslim.wardrobe/" target="_blank" style="background: url('demos/furniture/images/instagram/7.jpg') no-repeat center center; background-size:cover; min-height: 33vh;"></a>
+								</div>
+								<div class="col-6">
+									<a class="d-block instagram-image" href="https://instagram.com/the.muslim.wardrobe/" target="_blank" style="background: url('demos/furniture/images/instagram/8.jpg') no-repeat center center; background-size:cover; min-height: 33vh;"></a>
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>-->
+				</div><!-- Section End -->
 
+				<!-- Our Esteemed Brands
+				============================================= -->
+				<div class="section footer-stick bg-white m-0 py-3 border-bottom">
+					<h3 class="text-center">Our Esteemed Brands</h3>
+					<div id="oc-clients-full" class="owl-carousel owl-carousel-full image-carousel carousel-widget" data-margin="30" data-nav="true" data-pagi="false" data-loop="true" data-autoplay="5000" data-items-xs="3" data-items-sm="3" data-items-md="5" data-items-lg="6" data-items-xl="7">
+
+						<div class="oc-item"><a href="#"><img src="images/clients/1.png" alt="Brands"></a></div>
+						<div class="oc-item"><a href="#"><img src="images/clients/2.png" alt="Brands"></a></div>
+						<div class="oc-item"><a href="#"><img src="images/clients/3.png" alt="Brands"></a></div>
+						<div class="oc-item"><a href="#"><img src="images/clients/4.png" alt="Brands"></a></div>
+						<div class="oc-item"><a href="#"><img src="images/clients/5.png" alt="Brands"></a></div>
+						<div class="oc-item"><a href="#"><img src="images/clients/6.png" alt="Brands"></a></div>
+						<div class="oc-item"><a href="#"><img src="images/clients/7.png" alt="Brands"></a></div>
+						<div class="oc-item"><a href="#"><img src="images/clients/8.png" alt="Brands"></a></div>
+						<div class="oc-item"><a href="#"><img src="images/clients/9.png" alt="Brands"></a></div>
+						<div class="oc-item"><a href="#"><img src="images/clients/10.png" alt="Brands"></a></div>
+						<div class="oc-item"><a href="#"><img src="images/clients/11.png" alt="Brands"></a></div>
+						<div class="oc-item"><a href="#"><img src="images/clients/12.png" alt="Brands"></a></div>
+
+					</div>
+				</div>
 
 
 		<!-- Side social media icons start
@@ -2247,7 +2167,7 @@
 
 	<!-- Go To Top
 	============================================= -->
-	<div id="gotoTop" class="bi-arrow-up"></div>
+	<div id="gotoTop" class="uil uil-angle-up"></div>
 
 	<!-- JavaScripts
 	============================================= -->
